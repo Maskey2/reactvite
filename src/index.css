@@ -1,0 +1,240 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: rgb(164,172,178);
+  background: linear-gradient(90deg, rgba(164,172,178,1) 0%, rgba(178,203,174,1) 44%, rgba(196,212,165,1) 65%, rgba(251,238,136,1) 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* mint:b2cbae
+grey:a4acb2
+yellow:#e8de39; */
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4.2em;
+  line-height: 1.1;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  margin: 20px 0;
+  text-shadow: #e8de39 3px 3px 4px;
+}
+.header{
+ min-height: 80vh;
+ padding: 2rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.headerbod{
+  max-width: 1280px;
+  margin:  auto;
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1em;  
+}
+.nav{
+    padding: 20px 40px;
+    height: 20px;
+    margin-bottom: 50px;
+    color:#fbee88;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.nav a{
+  color:#fbee88;
+}
+.link{
+  margin: 0 15px;
+}
+.linklogo{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.section{
+  min-height: 80vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem; 
+  
+}
+.wrapper{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 4em;
+}
+.cwrapper{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 4em;
+}
+.column{
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.55) 10px 10px 2px;
+  padding: 20px;
+  background-color: white;
+  min-height: 300px;
+}
+.hcolumn{
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.55) 10px 10px 2px;
+  padding: 20px;
+  background-color: transparent;
+  min-height: 200px;
+}
+.ccolumn{
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.55) 10px 10px 2px;
+  padding: 20px;
+  background-color: white;
+  min-height: 100px;
+}
+.min-column{
+  padding-top: 20px;
+  background-color: white;
+  color:black;
+  min-height: 150px;
+  margin-bottom: 20px;
+}
+.title{
+  font-size: 2.2em;
+  line-height: 1.1;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  color: #000;
+  margin:0;
+  text-shadow: #b2cbae 2px 2px 5px;
+}
+.subtitle{
+  font-size: 1.8em;
+  line-height: 1.1;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  color: #b2cbae;
+  margin: 10px 10px 20px 0;
+}
+.main-pic{
+   width: 332px;
+   display: flex;
+   margin: auto;
+   border: 2px solid black;
+   box-shadow: rgba(0, 0, 0, 0.55) 10px 10px 2px;
+}
+.intro{
+  font-size: 1.3em;
+  line-height: 1.1;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  color: #000;
+  margin:0;
+}
+button {
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color:black;
+  background-color: #b2cbae;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  box-shadow: rgba(0, 0, 0, 0.55) 2px 5px 2px;
+}
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.55) 8px 10px 2px;
+}
+button:focus,
+button:focus-visible {
+  box-shadow: rgba(0, 0, 0, 0.55) 8px 10px 2px;
+}
+.img-wrap{
+  box-shadow: rgba(0, 0, 0, 0.55) 4px 4px 2px;
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 10px 0;
+}
+.col-img{
+  width: 50px;
+  height:auto;
+}
+.certimg-wrap{
+  box-shadow: rgba(0, 0, 0, 0.55) 4px 4px 2px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:2em;
+}
+.certification-img{
+  width:auto;
+  height:200px;
+}
+.footer{
+  margin-top: 15em;
+  padding: 10px 40px;
+  color:#fbee88;
+  background-color: black;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+@media only screen and (max-width: 600px) {
+  
+h1 {
+  font-size: 3em;  
+}.linklogo{
+    display: none;
+}
+.headerbod{
+  grid-template-columns: 1fr;    
+}
+.main-pic{
+  width: 150px;
+}
+.intro{
+  font-size: 1em;  
+}
+.link{
+  margin: 4px;
+  font-size: 12px;
+}
+.nav {
+  padding: 10px 10px;
+  justify-content: center;
+}
+}
