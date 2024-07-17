@@ -4,9 +4,11 @@ function Nav(){
             <div className="nav">
                  <a href="/" className="linklogo">NM</a>
                 <a href="/" className="link">Home</a>
-                <a href="/skill#product-management" className="link">Product Management</a>
-                <a href="/skill#development" className="link">Development</a>
-                <a href="/skill#web-design" className="link">Web Design</a>
+              
+                <a href="/#certifications" className="link">Certifications</a> 
+                 <a href="/#leadership" className="link">Leadership</a>
+                 <a href="/skill" className="link">Skills</a>
+                
             </div>
            
     )

@@ -1,10 +1,13 @@
 import Gtm from './../assets/c/gtm.jpg';
 import  GA from './../assets/c/ga.jpg';
 import PM from './../assets/c/pm.jpg';
+import Celigo from './../assets/c/celigo.jpg';
+import RWD from './../assets/c/responsive.png';
+import Power from './../assets/c/power.jpg';
 
 function Header(){
     return(
-        <div className='section' style={{    marginBottom: '10em'}}>
+        <div className='section' style={{    marginBottom: '10em'}} id="certifications">
             <h1>My Certifications</h1>
             <div className="cwrapper">
             <div className="ccolumn">
@@ -38,13 +41,19 @@ function Header(){
                    
                 </div>
                 <div className="ccolumn">
+                <div className='certimg-wrap'>
+                    <img src={Celigo} className="certification-img"/>
+                    </div>
                     <div className="min-ccolumn">
-                    <p className="title">Front End Libraries</p>    
-                    <p className='subtitle'>freeCodeCamp</p>                    
+                    <p className="title">integrator.io Master Class</p>    
+                    <p className='subtitle'>Celigo University</p>                    
                     </div>
                    
                 </div>
                 <div className="ccolumn">
+                <div className='certimg-wrap'>
+                    <img src={Power} className="certification-img"/>
+                    </div>
                     <div className="min-ccolumn" >
                     <p className="title">Power Pages</p>      
                     <p className='subtitle'>Microsoft</p>           
@@ -52,6 +61,9 @@ function Header(){
                    
                 </div>
                 <div className="ccolumn">
+                <div className='certimg-wrap'>
+                    <img src={RWD} className="certification-img"/>
+                    </div>
                     <div className="min-ccolumn" >
                    
                     <p className="title">Responsive Web Design</p>      

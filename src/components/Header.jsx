@@ -25,7 +25,7 @@ function Header() {
             <a href="https://github.com/Maskey2"><img src={Github} className="col-img" style={{ margin: "4px" }} /></a>
             <a href="https://medium.com/@maskeynishma"><img src={Medium} className="col-img" style={{ margin: "4px" }} /></a>
           </div>
-          <a href="" className="intro">View Resume</a>
+          <a href="https://drive.google.com/file/d/1EfncMW-EwMb56T3iv4rinaXNr1s9xl3I/view?usp=sharing" className="intro" target="_blank">View Resume</a>
         </div>
       </div>
     </div>

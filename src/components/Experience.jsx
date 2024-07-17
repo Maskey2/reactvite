@@ -13,9 +13,9 @@ function Header(){
             </div>
                     <div className="min-column">
                         <p className="title">Product Management</p>   
-                        <p>Lorem Epson is a very very nice text to use for this example if you think this is not the way then okay bye</p>                      
+                        <p>Prioritizing features based on user feedback and market research with emerging trends to ensure alignment on product vision.</p>                      
                     </div>
-                    <button className="button"><a href="/skill">See More</a></button>
+                    <a href="/skill"><button className="button">See More</button></a>
                 </div>
                 <div className="column">
                     <div className='img-wrap'>
@@ -23,19 +23,19 @@ function Header(){
                     </div>
                     <div className="min-column" >
                     <p className="title">Development</p>      
-                    <p>Lorem Epson is a very very nice text to use for this example if you think this is not the way then okay bye</p>                   
+                    <p>Building B2B and DTC websites in Shopify Plus, SPAs in React, Material UI and building SEO friendly, accessible, responsive, high converting landing pages.</p>                   
                     </div>
-                    <button className="button"><a href="/skill">See More</a></button>
+                    <a href="/skill#development"><button className="button">See More</button></a>
                 </div>
                 <div className="column">
                 <div className='img-wrap'>
                 <img src={Design} className="col-img"/>
                 </div>
                     <div className="min-column">
-                    <p className="title">Web Design</p>    
-                    <p>Lorem Epson is a very very nice text to use for this example if you think this is not the way then okay bye</p>                       
+                    <p className="title">Design</p>    
+                    <p>Bringing creativity to life, ideas to pixels ensuring optimal viewing experiences across the web in various devices and screen sizes.</p>                       
                     </div>
-                    <button className="button"><a href="/skill">See More</a></button>
+                    <a href="/skill#design"><button className="button">See More</button></a>
                 </div>
             </div>
         </div>
