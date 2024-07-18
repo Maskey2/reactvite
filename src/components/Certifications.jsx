@@ -8,7 +8,7 @@ import Power from './../assets/c/power.jpg';
 function Header(){
     return(
         <div className='section' style={{    marginBottom: '10em'}} id="certifications">
-            <h1>My Certifications</h1>
+            <h1>Certifications</h1>
             <div className="cwrapper">
             <div className="ccolumn">
             <div className='certimg-wrap'>

@@ -1,7 +1,10 @@
+import React, { useState } from 'react';
 function Footer(){
+    const [date, setDate] = useState(new Date());
+
     return(
         <div className="footer"> 
-            <p>Copyright © NM2024. </p>            
+            <p>Copyright © NM{date.getFullYear()} </p>   
         </div>
     )
 }

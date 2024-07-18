@@ -61,6 +61,10 @@ function Leadership() {
           >
              <a href="https://www.wit-selu.com/"><img src={WIT1} className="wit-img" /></a>
           </div>
+         
+        </div>
+        <div style={{    display: 'flex', justifyContent: 'center'}}>
+        <p class="r-arrow" ><a href="https://www.wit-selu.com/" className="intro" target="_blank">Visit WIT-SELU.com</a></p>
         </div>
       </div>
     </div>

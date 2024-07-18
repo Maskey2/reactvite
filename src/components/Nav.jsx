@@ -1,8 +1,9 @@
+import Logo from "../assets/NM-logo.jpg";
 function Nav(){
     return(
    
             <div className="nav">
-                 <a href="/" className="linklogo">NM</a>
+                 <a href="/" className="linklogo"><img src={Logo} style={{width:'30px'}}/></a>
                 <a href="/" className="link">Home</a>
               
                 <a href="/#certifications" className="link">Certifications</a> 
