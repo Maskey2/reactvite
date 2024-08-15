@@ -45,19 +45,19 @@ function Leadership() {
         
           <div
             className="column"
-            style={{ minHeight: "100px", color: "black", marginBottom: "10px" }}
+            style={{ minHeight: "100px", color: "black", marginBottom: "10px", textAlign:'center' }}
           >
             <a href="https://www.wit-selu.com/"><img src={Website} className="wit-img" /></a>
           </div>
           <div
             className="column"
-            style={{ minHeight: "100px", color: "black", marginBottom: "10px" }}
+            style={{ minHeight: "100px", color: "black", marginBottom: "10px", textAlign:'center' }}
           >
              <a href="https://www.wit-selu.com/"><img src={WIT2} className="wit-img" /></a>
           </div>
           <div
             className="column"
-            style={{ minHeight: "100px", color: "black", marginBottom: "10px" }}
+            style={{ minHeight: "100px", color: "black", marginBottom: "10px", textAlign:'center' }}
           >
              <a href="https://www.wit-selu.com/"><img src={WIT1} className="wit-img" /></a>
           </div>
