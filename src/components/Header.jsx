@@ -1,7 +1,8 @@
 import LinkedIn from "../assets/Linkedin.webp";
 import Medium from "../assets/Medium.svg";
 import Github from "../assets/Github.png";
-import P from "../assets/p.jpg";
+import P from "../assets/Nishma-Maskey-Display.jfif";
+import Resume from "../assets/Resume-Nishma-Maskey-2025.pdf";
 
 function Header() {
   return (
@@ -25,7 +26,7 @@ function Header() {
             <a href="https://github.com/Maskey2"><img src={Github} className="col-img" style={{ margin: "4px" }} /></a>
             <a href="https://medium.com/@maskeynishma"><img src={Medium} className="col-img" style={{ margin: "4px" }} /></a>
           </div>
-          <p class="r-arrow"><a href="https://drive.google.com/file/d/1EfncMW-EwMb56T3iv4rinaXNr1s9xl3I/view?usp=sharing" className="intro" target="_blank">View Resume</a></p>
+          <p class="r-arrow"><a href={Resume} className="intro" target="_blank">View Resume</a></p>
         </div>
       </div>
     </div>
