@@ -2,7 +2,7 @@ import LinkedIn from "../assets/Linkedin.webp";
 import Medium from "../assets/Medium.svg";
 import Github from "../assets/Github.png";
 import P from "../assets/Nishma-Maskey-Display.jfif";
-import Resume from "../assets/Resume-Nishma-Maskey-2025.pdf";
+import Resume from "../assets/Nishma-Maskey-Resume-2026.pdf";
 
 function Header() {
   return (
